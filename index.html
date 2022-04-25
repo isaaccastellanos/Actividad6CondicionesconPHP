@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 6: Condiciones con PHP</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <h1>CAPTURA LAS CALIFICACIONES</h1>
+
+    <div class="formulario_calificaciones">
+        <form action="./php/mandarCalificaciones.php" method="post">
+           <div class="matematicasDiv">
+               <span>Matematicas: </span>
+               <input name="pri_mate" type="number" placeholder="1era">
+               <input name="seg_mate" type="number" placeholder="2da">
+               <input name="ter_mate" type="number" placeholder="3ra">
+           </div> 
+           <div class="inglesDiv">
+                <span>Ingles: </span>
+                <input name="pri_ing" type="number" placeholder="1era">
+                <input name="seg_ing" type="number" placeholder="2da">
+                <input name="ter_ing" type="number" placeholder="3ra">
+            </div>
+            <div class="programacionDiv">
+                <span>Programacion: </span>
+                <input name="pri_pro" type="number" placeholder="1era">
+                <input name="seg_pro" type="number" placeholder="2da">
+                <input name="ter_pro" type="number" placeholder="3ra">
+            </div>
+            <div class="fisicaDiv">
+                <span>Fisica: </span>
+                <input name="pri_fis" type="number" placeholder="1era">
+                <input name="seg_fis" type="number" placeholder="2da">
+                <input name="ter_fis" type="number" placeholder="3ra">
+            </div>
+            <div class="programacionWebDiv">
+                <span>Programacion Web: </span>
+                <input name="pri_pw" type="number" placeholder="1era">
+                <input name="seg_pw" type="number" placeholder="2da">
+                <input name="ter_pw" type="number" placeholder="3ra">
+            </div>    
+            <div class="analisisDiv">
+                <span>Analisis y diseño de sistemas: </span>
+                <input name="pri_anal" type="number" placeholder="1era">
+                <input name="seg_anal" type="number" placeholder="2da">
+                <input name="ter_anal" type="number" placeholder="3ra">
+            </div>  
+            <div class="button">
+                <input type="submit" value="Enviar calificaciones">
+            </div>  
+        </form>
+    </div>
+</body>
+</html>
